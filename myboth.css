@@ -1,0 +1,33 @@
+/* Remove default list styles */
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sub-item {
+    list-style: none;
+    padding: 0;
+}
+
+/* Anchor styles */
+.sub-item-link {
+    text-decoration: none;
+    color: #007bff; /* Default color */
+    transition: color 0.3s ease, outline 0.3s ease;
+}
+
+.sub-item-link:visited {
+    color: #6a0dad; /* Change color after visiting */
+}
+
+.sub-item-link:hover {
+    color: #ff4500; /* Change color on hover */
+}
+
+.sub-item-link:focus {
+    outline: 2px solid #32cd32; /* Add an outline on focus */
+}
+
+.sub-item-link:active {
+    color: #dc143c; /* Change color when clicked */
+}
